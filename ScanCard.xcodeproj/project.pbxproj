@@ -13,6 +13,8 @@
 		166E59672302BC34004E4D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166E59662302BC34004E4D1B /* Assets.xcassets */; };
 		166E596A2302BC34004E4D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166E59682302BC34004E4D1B /* LaunchScreen.storyboard */; };
 		169A0C382302F50C0094358C /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 169A0C372302F50C0094358C /* tessdata */; };
+		16BC6CDD2307CC7800169F0E /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC6CDC2307CC7800169F0E /* Extention.swift */; };
+		16BC6CDF2307DA5000169F0E /* datasourceLanguage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16BC6CDE2307DA5000169F0E /* datasourceLanguage.plist */; };
 		16F35EC323041225008D848E /* per.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 16F35EC223041225008D848E /* per.traineddata */; };
 		F572D003ADC5EE32D034D90C /* Pods_ScanCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD30FD5771AE0B74352876 /* Pods_ScanCard.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 		166E59692302BC34004E4D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		166E596B2302BC34004E4D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		169A0C372302F50C0094358C /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ScanCard/tessdata; sourceTree = "<group>"; };
+		16BC6CDC2307CC7800169F0E /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		16BC6CDE2307DA5000169F0E /* datasourceLanguage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = datasourceLanguage.plist; sourceTree = "<group>"; };
 		16F35EC223041225008D848E /* per.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = per.traineddata; sourceTree = "<group>"; };
 		1F376777EAAD3C3F3146579F /* Pods-ScanCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCard.debug.xcconfig"; path = "Target Support Files/Pods-ScanCard/Pods-ScanCard.debug.xcconfig"; sourceTree = "<group>"; };
 		4042F06A0A74D4EB93426775 /* Pods-ScanCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCard.release.xcconfig"; path = "Target Support Files/Pods-ScanCard/Pods-ScanCard.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				166E59662302BC34004E4D1B /* Assets.xcassets */,
 				166E59682302BC34004E4D1B /* LaunchScreen.storyboard */,
 				166E596B2302BC34004E4D1B /* Info.plist */,
+				16BC6CDC2307CC7800169F0E /* Extention.swift */,
+				16BC6CDE2307DA5000169F0E /* datasourceLanguage.plist */,
 			);
 			path = ScanCard;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F35EC323041225008D848E /* per.traineddata in Resources */,
+				16BC6CDF2307DA5000169F0E /* datasourceLanguage.plist in Resources */,
 				169A0C382302F50C0094358C /* tessdata in Resources */,
 				166E596A2302BC34004E4D1B /* LaunchScreen.storyboard in Resources */,
 				166E59672302BC34004E4D1B /* Assets.xcassets in Resources */,
@@ -220,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				166E59622302BC31004E4D1B /* ViewController.swift in Sources */,
+				16BC6CDD2307CC7800169F0E /* Extention.swift in Sources */,
 				166E59602302BC31004E4D1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
