@@ -9,7 +9,7 @@
 import UIKit
 import SwiftyTesseract
 
-open class RecognizeIdBankCard: UIViewController {
+public class RecognizeIdBankCard: UIViewController {
     
     typealias Completion = (String) -> ()
 
@@ -26,7 +26,7 @@ open class RecognizeIdBankCard: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    open func scanCard(completion: @escaping((String) -> ())) {
+    public func scanCard(completion: @escaping((String) -> ())) {
         self.completion = completion
         takePicture()
     }
