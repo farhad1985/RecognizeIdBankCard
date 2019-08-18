@@ -1,0 +1,11 @@
+framework module RecognizeIdBankCard {
+  umbrella header "RecognizeIdBankCard.h"
+
+  export *
+  module * { export * }
+}
+
+module RecognizeIdBankCard.Swift {
+    header "RecognizeIdBankCard-Swift.h"
+    requires objc
+}
