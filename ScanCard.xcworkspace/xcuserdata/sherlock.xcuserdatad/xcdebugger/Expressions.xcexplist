@@ -10,5 +10,13 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "UIImage.desaturateColor():Extention.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.ciImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>

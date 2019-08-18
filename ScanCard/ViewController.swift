@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         takePicture()
     }
     
+    @IBAction func didTapProcess(_ sender: Any) {
+        setupTesseract(img: image.image!)
+    }
+    
     private func takePicture() {
         DispatchQueue.main.async {
             self.vc.sourceType = .camera
@@ -96,7 +100,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         }
         
         print(img.size)
-        image.image = img
-        setupTesseract(img: img)
+        image.image = img.getScannedImage() ?? img
+        setupTesseract(img: img.getScannedImage() ?? img)
     }
 }
