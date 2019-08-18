@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		06B7AC55985877A455755888 /* Pods_RecognizeIdBankCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE2A278EAFFD2D6B11491B5 /* Pods_RecognizeIdBankCard.framework */; };
-		166C02CF23095EE900F4856F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F3BF522309462000CEAF5A /* Info.plist */; };
 		16F3BF532309462000CEAF5A /* RecognizeIdBankCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F3BF512309462000CEAF5A /* RecognizeIdBankCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16F3BF5B2309465A00CEAF5A /* RecognizeIdBankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3BF592309465A00CEAF5A /* RecognizeIdBankCard.swift */; };
 		16F3BF5C2309465A00CEAF5A /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3BF5A2309465A00CEAF5A /* Extention.swift */; };
@@ -162,7 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166C02CF23095EE900F4856F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
